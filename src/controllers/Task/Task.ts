@@ -4,7 +4,6 @@
  --
  */
 
-import * as passport from 'passport';
 import TaskModel from '../../models/Task'
 import {
 	IRequest, IResponse, INext
