@@ -92,7 +92,7 @@ class Task {
 			}));
 
 
-			res.json({ filteredTasks, recommendedTasks });
+			res.json({ tasksWithOverdueFlag, recommendedTasks });
 		} catch (error) {
 			res.status(500).json({ error: error.message });
 		}
